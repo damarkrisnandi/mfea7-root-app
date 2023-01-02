@@ -1,0 +1,7 @@
+{
+    "redirects": [
+        {"source": "/", "destination": "/"},
+        {"source": "/my-app", "destination": "/my-app"},
+        {"source": "/child1", "destination": "/child1"},
+    ]
+}
