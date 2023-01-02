@@ -1,7 +1,5 @@
 {
-    "redirects": [
-        {"source": "/", "destination": "/"},
-        {"source": "/my-app", "destination": "/my-app"},
-        {"source": "/child1", "destination": "/child1"},
+    "rewrites": [
+        {"source": "/(.*)", "destination": "/index.html"},
     ]
 }
