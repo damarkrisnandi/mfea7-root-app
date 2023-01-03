@@ -31,18 +31,7 @@
 
     More information about shared dependencies can be found at https://single-spa.js.org/docs/recommended-setup#sharing-with-import-maps.
   -->
-  <script type="systemjs-importmap">
-    {
-      "imports": {
-        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
-        "@damarkrisnandi/root-config": "https://mfea7v2-root-app.vercel.app/damarkrisnandi-root-config.js",
-        "home": "https://mfea7v2-microapp-home.vercel.app/main.js",
-        "nav" : "https://mfea7v2-microapp-nav.vercel.app/main.js",
-        "my-app": "https://mfea7v2-microapp-myapp.vercel.app/main.js",
-        "child1": "https://mfea7v2-microapp-child1.vercel.app/main.js"
-      }
-    }
-  </script>
+  <script type="systemjs-importmap" src="/import-map.json"></script>
 
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js" as="script">
   <!-- <script src="https://cdn.jsdelivr.net/npm/zone.js@0.10.3/dist/zone.min.js"></script> -->
