@@ -7,7 +7,9 @@
     "format": "prettier --write .",
     "check-format": "prettier --check .",
     "build": "concurrently npm:build:*",
+    "import-map": "node ./build-import-map.json",
     "build:webpack": "webpack --mode=production",
+    "build:complete": "npm run build:webpack && npm run import-map",
     "build:types": "tsc"
   },
   "devDependencies": {
