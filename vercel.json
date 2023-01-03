@@ -1,3 +1,6 @@
 {
-    "routes": [{"src": "/[^.]+", "dest": "/"}]
+    "routes": [{"src": "/[^.]+", "dest": "/"}],
+    "redirects": [
+        { "source": "/assets", "destination": "/assets/**" }
+    ]
 }
